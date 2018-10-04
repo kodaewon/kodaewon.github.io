@@ -26,10 +26,10 @@ module Jekyll
 
           @dir = File.join(category)
 
-          if num_page ==1
+          if num_page == 1
             @name = 'index.html'
           else
-            @name = "/index_#{num_page}.html"
+            @name = "/page#{num_page}.html"
           end 
           self.process(@name)
 

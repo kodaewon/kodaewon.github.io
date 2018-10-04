@@ -19,7 +19,7 @@ all_categories: [
 ]
 
 paginate: 8 
-paginate_path: "index_:num"
+paginate_path: "page:num"
 
 index_layout: "index.html"
 category_layout: "_layouts/category.html"
@@ -31,7 +31,7 @@ tag_layout: "_layouts/tag.html"
 gems: [jekyll-paginate]
 
 collections:
-  docs:
+  category:
     output: true
 
 copyright: []
