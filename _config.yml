@@ -12,11 +12,11 @@ url: http://www.panxw.com
 domain: www.panxw.com
 
 all_categories: [
-  ["android", "Python 学习","/posts/android.html"], 
-  ["react", "ReactNavtive","/posts/react.html"], 
-  ["web", "工具使用","/posts/web.html"], 
-  ["read", "读书笔记","/posts/read.html"], 
-  ["about", "关于","/about.html"]
+  ["android", "Python 学习","/posts/android/index.html"], 
+  ["react", "ReactNavtive","/posts/react/index.html"], 
+  ["web", "工具使用","/posts/web/index.html"], 
+  ["read", "读书笔记","/posts/read/index.html"], 
+  ["about", "关于","/about/index.html"]
 ]
 
 paginate: 8 
@@ -29,7 +29,6 @@ tag_layout: "_layouts/tag.html"
 #不使用gems库中的jekyll-paginate-category
 #使用基于jekyll-paginate改写的的栏目分页插件，所以jekyll-paginate还需要用上。
 gems: [jekyll-paginate]
-# gems: [jekyll-paginate]
 
 # -----------------------------------------------------------------------------
 #  Collections
