@@ -8,8 +8,8 @@ author: "panxw"
 email: winfirm#163.com
 name: "Panxw's Blog"
 baseurl: /
-url: http://kodaewon3.github.io
-domain: kodaewon3.github.io
+url: http://kodaewon.github.io
+domain: kodaewon.github.io
 
 all_categories: [
   ["android", "Android开发","/android/index.html"], 
