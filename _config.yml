@@ -3,31 +3,25 @@ highlighter: rouge
 permalink: pretty
 excerpt_separator: "<!-- more -->"
 
-github: panxw
-author: "panxw"
-email: winfirm#163.com
-name: "Panxw's Blog"
+github: kodaewon
+author: "kodaewon"
+email: rheodnjs23@naver.com
+name: "iOS 개발자"
 baseurl: /
-url: http://www.panxw.com
-domain: www.panxw.com
+url: http://kodaewon.github.io
+domain: kodaewon.github.io
 
 all_categories: [
-  ["android", "Python 学习","/posts/android/index.html"], 
+  ["ios", "iOS","/posts/ios/index.html"], 
   ["react", "ReactNavtive","/posts/react/index.html"], 
-  ["web", "工具使用","/posts/web/index.html"], 
-  ["read", "读书笔记","/posts/read/index.html"], 
-  ["about", "关于","/about/index.html"]
+  ["read", "기타","/posts/read/index.html"], 
+  ["bio", "일대기","/posts/bio/index.html"], 
+  ["about", "About","/about/index.html"]
 ]
 
 paginate: 8 
 paginate_path: "/page:num/"
 
-index_layout: "index.html"
-category_layout: "_layouts/category.html"
-tag_layout: "_layouts/tag.html"
-
-#不使用gems库中的jekyll-paginate-category
-#使用基于jekyll-paginate改写的的栏目分页插件，所以jekyll-paginate还需要用上。
 gems: [jekyll-paginate]
 
 # -----------------------------------------------------------------------------

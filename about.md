@@ -1,40 +1,30 @@
 ---
 layout: page
-title: "关于"
+title: "about"
 ---
-## 博客主题
-- **探索尝试，发现未知可能！**  
+## 1.개인 정보
+- Name: kodaewon
+- City: Seoul, Korea
+- Career: iOS developer
+
+## 2.연락처 정보
+- Github: <a href="https://github.com/kodaewon" target="_blank">https://github.com/kodaewon</a>
+- Email: yreak33@gmail.com
+
+## 3.내 사이트
+- Blog : <a href="https://kodaewon.github.io" target="_blank">https://kodaewon.github.io</a>
+- 
 
 
-## 1.说明
-- 本博客基于Jekyll工具构建，模板代码公开。[(源码)](https://github.com/panxw/panxw.github.com)  
-- 模板代码可任意使用，但请保留本站**友情链接**。  
-- 本站名称：Panxw's Blog  
-- 本站网址：https://www.panxw.com  
+## 4.후원
+- 이 사이트의 내용이 도움이 되었다면, 지원을 수집, 공유 또는 보상하는 것을 잊지 마십시오. 감사합니다! ! 
 
-
-## 2.个人信息
-- Panxw，80后，男，武汉，2011年起从事Android开发至今。
-- 另熟悉IOS/React Native/Node.js等开发技术。  
-- 欢迎技术交流。  
-
-
-## 3.联系方式
-- Github: panxw  
-- Email: winfirm(at)163.com, qq: 85902258  
-- QQ交流群: 168563980  
-
-
-## 4.赞助
-- 如果本站内容帮助到了你，请记得收藏、分享，或打赏支持，谢谢！！  
-
-支付宝:  
-<div style="width:220px">
-    <img width="220" height="220" src="/images/donate_alipay.jpg"/>
-</div>
-微信:  
-<div style="width:220px">
-    <img width="220" height="220" src="/images/donate_weixin.jpg"/>
+BIT :
+<div style="width:180px">
+    <img width="180" height="180" src="/images/donate_bit.png"/>
 </div>
 
-google cloud!
+ETH :  
+<div style="width:180px">
+    <img width="180" height="180" src="/images/donate_eth.png"/>
+</div>
