@@ -18,7 +18,6 @@ layout: default
   <h1>{{ page.title }}</h1>
   <hr class="hrline"/>
   <div class="post_titledate"/>
-    https://www.panxw.com&nbsp;&nbsp;&nbsp;
     목록：<a href="{{ category_link }}">{{ category_name }}</a>&nbsp;&nbsp;&nbsp;
     {% if page.tags.size > 0%}
       TAG：{% for tag in page.tags %}
@@ -47,7 +46,7 @@ layout: default
 
 <div style="text-align:center">
   <div>
-    <b>이 기사는 원본 기사입니다. 소스를 지정하십시오.：</b><a href="https://www.panxw.com">Panxw's Blog</a> » <a href="{{site.url}}{{page.url}}" title="{{page.name}}">{{ page.title }}</a>
+    <b>이 기사는 원본 기사입니다. 소스를 지정하십시오.：</b><a href="https://kodaewon.github.io">Kodaewon's Blog</a> » <a href="{{site.url}}{{page.url}}" title="{{page.name}}">{{ page.title }}</a>
   </div>
   <div class="friend_alert">
     
@@ -57,10 +56,12 @@ layout: default
     <div class="donate_block_left">
       <img src="/images/donate_bit.png" class="donate_block_image"/><br/>
       <div class="donate_block_title">Bit</div>
+      <!-- 32GUZgxmqcvu5yV2FbjyzxaZgX1G64SgpK -->
     </div>
     <div class="donate_block_right">
       <img src="/images/donate_eth.png" class="donate_block_image"/><br/>
       <div class="donate_block_title">Eth</div>
+      <!-- 0x7a07673294cf8ba0b3a6130c7a050df0f98de149 -->
     </div>
   </div>
   <div class="donate_button" onclick="donate()">
@@ -73,7 +74,7 @@ layout: default
 <div style="margin:10px">
   <span class="next">
     {% if prevpost %}
-    上篇：
+    이전：
     <a href="{{prevpost.url}}">
       {{prevpost.title}}
     </a>
@@ -87,7 +88,7 @@ layout: default
   <div style="float:right">
   <span class="prev" >
     {% if nextpost %}
-    下篇：
+    다음：
     <a href="{{nextpost.url}}">
       {{nextpost.title}}
     </a>
