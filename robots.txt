@@ -1,2 +1,2 @@
 User-agent: *
-Sitemap: http://www.panxw.com/atom.xml
+Sitemap: http://kodaewon.github.io/atom.xml

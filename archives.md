@@ -1,6 +1,6 @@
 ---
 layout: page
-title: "归档"
+title: "아카이브"
 ---
 <ul class="list-unstyled">
      {% for post in site.posts limit:100 %} 

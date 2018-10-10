@@ -6,7 +6,7 @@ excerpt_separator: "<!-- more -->"
 github: kodaewon
 author: "kodaewon"
 email: rheodnjs23@naver.com
-name: "iOS 개발자"
+name: "iOS Developer"
 baseurl: /
 url: http://kodaewon.github.io
 domain: kodaewon.github.io
@@ -22,7 +22,7 @@ all_categories: [
 paginate: 8 
 paginate_path: "/page:num/"
 
-gems: [jekyll-paginate-v2]
+gems: [jekyll-paginate]
 
 # -----------------------------------------------------------------------------
 #  Collections
