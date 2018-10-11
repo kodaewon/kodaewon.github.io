@@ -5,7 +5,7 @@ layout: default
 {% assign category_posts=site.categories[page.category] %}{% assign prevpost = nil %}{% assign nextpost = nil %}{% assign found = false %}
 {% for post in category_posts %}{% if found==true %}{% assign prevpost = post %}{% break %}{% endif %}{% if page.url==post.url %}{% assign found = true %}{% endif %}{% if found==false %}{% assign nextpost = post %}{% endif %}{% endfor %}
 {% assign category_posts=nil %}
-<div  class="post_frame">
+<div class="post_frame">
 <!-- Navi -->
 <div class="post_navi">
   <a href="/">홈</a>&nbsp;>&nbsp;
