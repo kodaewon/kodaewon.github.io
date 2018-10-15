@@ -3,7 +3,7 @@ layout: post
 title: "Swift QRcode make"
 date: 2018-10-15 01
 category: ios
-tags: [ios, swift, qrcode]
+tags: [swift, qrcode]
 ---
 
 
