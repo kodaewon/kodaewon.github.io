@@ -29,4 +29,4 @@ vw.view.frame = self.view.bounds;
 [palyer play];
 ```
 
-<img width="200" height="200" src="/images/ios/avplayerviewcontroller_type1.png" ></img>
+<img width="200" height="100" src="/images/ios/avplayerviewcontroller_type1.png" >
