@@ -16,29 +16,29 @@ tags: [Swift, Access]
 
 가장 낮은 레벨부터 확인해보자.
 
-#### Open
+### Open
 
 ​	가장 개방된 접근 한정자이다. 말 그대로 Open 이다. import또는 상속만 받는다면, 어느 곳에서는 사용이 가능하다. sub class로 받는다면 open 메서드는 override를 받아서 사용할수 있다.
 
-#### Public
+### Public
 
 ​	open과 동일한 접근 레벨을 가지고 있다. 하지만 sub class 생성과 orverride에 제한이 있다. 라이브러리로는 sub class내에서는 orverride가 허용이 되지만, **import 라이브러리를 사용하는곳에서는 orverride를 제한할 수 있다.**
 
-#### Internal
+### Internal
 
 ​	접근 한정자가 지정되지 않은 경우 기본적을 사용되는 접근 수준이다. module의 소스 파일에서 사용할 수 있지만 module 외부로는 접근을 할 수 없다.
 
-#### Fileprivate
+### Fileprivate
 
 ​	소스 파일에서만 접근이 가능하다. 이 말은 같은 파일내라면 extension으로 접근하여 사용이 가능하다.
 
-#### Private
+### Private
 
 ​	현재 라인에서만 사용이 가능하다. 같은 소스 파일이라도 extension으로도 불가능하다.
 
 ------
 
-### Getter / Setter
+## Getter / Setter
 
 Getter, Setter 표현으로 접근 제한자에 권한을 부여 할 수 있다.
 
@@ -60,7 +60,7 @@ class AccessControl {
 
 ------
 
-#### Unit Test
+## Unit Test
 
 단위 테스트 대상은 자체 module이라서 **intrernal** 인 Application Module에 변수를 접근 할수 없다. 그래서 Unit Test때는 import에 @testable를 선언해 줘야한다.
 
