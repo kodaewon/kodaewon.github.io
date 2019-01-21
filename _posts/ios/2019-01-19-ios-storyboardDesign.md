@@ -3,7 +3,7 @@ layout: post
 title: "IBInspectable, IBDesignable 알아보자"
 date: 2019-01-17 01
 category: ios
-tags: [swift, @, storyboard, xib]
+tags: [swift, storyboard, xib]
 ---
 
 
