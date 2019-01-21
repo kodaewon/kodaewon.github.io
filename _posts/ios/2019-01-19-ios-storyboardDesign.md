@@ -18,29 +18,29 @@ ibinspectable_ibdesignable_1
 
 스토리보드에 우리가 자주 사용하는 이쪽을 
 
-<img scr="/images/ios/ibinspectable_ibdesignable_1.png" style="width:150px;">
+<img src="/images/ios/ibinspectable_ibdesignable_1.png" style="width:150px;">
 
 **inspector** 라 한다. 이 부분에 내가 원하는 값을 입력할 수 있는 폼을 나타내는게  **IBInspectable** 이고 사용 방법은 
 
 아래와 같다.
 
-<img scr="/images/ios/ibinspectable_ibdesignable_2.png" style="width:150px;">
+<img src="/images/ios/ibinspectable_ibdesignable_2.png" style="width:150px;">
 
 이렇게 입력후 다시 스토리보드에 **inspector** 부분을 본다면 들어가있는걸 확인 할수 있다.
 
-<img scr="/images/ios/ibinspectable_ibdesignable_3.png" style="width:150px;">
+<img src="/images/ios/ibinspectable_ibdesignable_3.png" style="width:150px;">
 
 
 
  **IBDesignable** 은 값을 설정 했을때, 스토리 보드에서 새로 Draw를 해주는 옵션이다. Custom으로 UIView속성을 가진 Class에 **IBDesignable** 을 붙여주면,
 
-<img scr="/images/ios/ibinspectable_ibdesignable_4.png" style="width:150px;">
+<img src="/images/ios/ibinspectable_ibdesignable_4.png" style="width:150px;">
 
 
 
 방금 설정했던 값으로 그려진 View를 볼수 있게 된다.
 
-<img scr="/images/ios/ibinspectable_ibdesignable_5.png" style="width:150px;">
+<img src="/images/ios/ibinspectable_ibdesignable_5.png" style="width:150px;">
 
 
 
