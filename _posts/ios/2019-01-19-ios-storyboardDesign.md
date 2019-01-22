@@ -14,8 +14,6 @@ tags: [swift, storyboard, xib]
 
 StoryBoard, Xib 사용시하다보면 오른쪽에 값을 설정하는곳 있다. 라이브러리를 사용하다보면 Custom Class View에는 Custom으로 값을 설정하는 칸이 더 생긴다. 그것을 설정하고 활용하는 방법이 바로 **IBInspectable, IBDesignable** 이다.
 
-ibinspectable_ibdesignable_1
-
 스토리보드에 우리가 자주 사용하는 이쪽을 
 
 <img src="/images/ios/ibinspectable_ibdesignable_1.png" style="width:300px;">
