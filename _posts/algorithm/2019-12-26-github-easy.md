@@ -3,7 +3,7 @@ layout: post
 title: "프로그래머스 - 나누어 떨어지는 숫자 배열"
 date: 2019-12-26
 category: algorithm
-tags: [swift, algorithm]
+tags: [swift, algorithm, programmers]
 ---
 
 # 코딩테스트 연습 > 연습문제 > 나누어 떨어지는 숫자 배열
