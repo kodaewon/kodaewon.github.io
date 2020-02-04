@@ -1,6 +1,6 @@
---- 
-layout: default 
---- 
+---
+layout: default
+---
 {% for cat in site.all_categories %}{% if page.category == cat[0] %}{% assign category_name = cat[1] %}{% assign category_link = cat[2] %}{% endif %}{% endfor %}
 {% assign category_posts=site.categories[page.category] %}{% assign prevpost = nil %}{% assign nextpost = nil %}{% assign found = false %}
 {% for post in category_posts %}{% if found==true %}{% assign prevpost = post %}{% break %}{% endif %}{% if page.url==post.url %}{% assign found = true %}{% endif %}{% if found==false %}{% assign nextpost = post %}{% endif %}{% endfor %}
@@ -35,7 +35,7 @@ layout: default
 
 <!-- adsense_468x60 -->
 <div style="text-align:center;margin-top:15px">
-   {% include adsense_468x60.html %} 
+   {% include adsense_468x60.html %}
 </div>
 <br/>
 
@@ -48,12 +48,14 @@ layout: default
   <div>
     <b>이 기사는 원본 기사입니다. 소스를 지정하십시오.：</b><a href="https://kodaewon.github.io">Kodaewon's Blog</a> » <a href="{{site.url}}{{page.url}}" title="{{page.name}}">{{ page.title }}</a>
   </div>
-  
+
   {% if category_name != '일대기' %}
-  <div class="friend_alert">
-    
+
+  <!-- <div class="friend_alert">
+
 이 사이트의 내용이 도움이 되었다면, 지원을 수집, 공유 또는 보상하는 것을 잊지 마십시오. 감사합니다!
-  </div>
+  </div> -->
+  
   <div id="donate_div" class="donate_block">
     <div class="donate_block_left">
       <img src="/images/donate_bit.png" class="donate_block_image"/><br/>
@@ -66,9 +68,9 @@ layout: default
       <!-- 0x7a07673294cf8ba0b3a6130c7a050df0f98de149 -->
     </div>
   </div>
-  <div class="donate_button" onclick="donate()">
+  <!-- <div class="donate_button" onclick="donate()">
     <a>후원</a>
-  </div>
+  </div> -->
   {% endif %}
 </div>
 <hr/>
@@ -85,9 +87,9 @@ layout: default
       <a href="{{category_link}}">
         {{category_name}}
       </a>
-    {%endif%} 
+    {%endif%}
   </span>
-  
+
   <div style="float:right">
   <span class="prev" >
     {% if nextpost %}
@@ -102,13 +104,13 @@ layout: default
     {%endif%}
   </span>
   </div>
-  
+
 </div>
 
 <hr>
 <!-- Blog Comments -->
 <div class="media">
-  {% include comment.html %} 
+  {% include comment.html %}
 </div>
 
 </div>
