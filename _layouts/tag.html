@@ -25,8 +25,9 @@
     <!-- Bootstrap Core JavaScript -->
     <script src="/js/bootstrap.min.js"></script>
     <script src="/js/tongji.js"></script>
+    <link rel="stylesheet" href="/assets/css/github-markdown.css">
   </head>
-  
+
   <body>
     <!-- Navigation -->
     <nav class="navbar navbar-inverse navbar-fixed-top" role="navigation">
@@ -50,7 +51,7 @@
         </div>
         <!-- Collect the nav links, forms, and other content for toggling -->
         <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
-          {% include navigation.html %} 
+          {% include navigation.html %}
         </div>
         <!-- /.navbar-collapse -->
       </div>
@@ -72,7 +73,7 @@
 					<h2>
 					  <a href="{{ post.url }}">
 						{{ post.title }}
-					  </a> 
+					  </a>
 					  <div class="post-date">
 						<span class="glyphicon glyphicon-time"></span>
 						{{ post.date | date:"%Y-%m-%d" }}
@@ -94,13 +95,13 @@
               추천링크
             </h4>
 			      <div class="row">
-            {% include recommend_link.html %} 
+            {% include recommend_link.html %}
             </div>
           </div>
 
           <!-- Side Widget Well -->
           <div class="well-ad">
-            {% include adsense_336x280.html %} 
+            {% include adsense_336x280.html %}
           </div>
 
 		      <!-- Blog Recent Well -->
@@ -109,10 +110,10 @@
               최신기록
             </h4>
             <div class="row">
-                    {% include recent_posts.html %} 
+                    {% include recent_posts.html %}
             </div>
-          </div>		  
-          
+          </div>
+
 		      <!-- Blog Links Well -->
           <div class="well">
             <h4>
@@ -123,7 +124,7 @@
             </a>
             </div>
             </h4>
-            {% include friendlinks.html %} 
+            {% include friendlinks.html %}
           </div>
         </div>
       </div>
@@ -133,7 +134,7 @@
       <footer>
         <div class="row">
           <div class="col-lg-12">
-            {% include copyright.html %} 
+            {% include copyright.html %}
           </div>
           <!-- /.col-lg-12 -->
         </div>
@@ -141,6 +142,6 @@
       </footer>
     </div>
     <!-- /.container -->
-    {% include spider.html %} 
+    {% include spider.html %}
   </body>
 </html>
