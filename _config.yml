@@ -23,7 +23,7 @@ all_categories: [
   ["algorithm", "Algorithm", "/posts/algorithm/index.html"],
   ["read", "기타","/posts/read/index.html"], 
   # ["bio", "일대기","/posts/bio/index.html"], 
-  ["about", "About","/about/index.html"]
+  # ["about", "About","/about/index.html"]
 ]
 
 paginate: 8 
